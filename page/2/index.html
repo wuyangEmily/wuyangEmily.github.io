@@ -45,7 +45,7 @@
 <li> 用正交矩阵求解线性系统非常简单，因为点积保持不变，所以已知的输出向量和矩阵的列向量的点积，分别等同于未知输入向量和各个基向量的点积<br><img src="https://uploadfiles.nowcoder.com/images/20211104/799168342_1636032534784/D2B5CA33BD970F64A6301FA75AE2EB22" alt=" ">\</li>
 <li>对大多数线性方程组：<br><img src="https://uploadfiles.nowcoder.com/images/20211104/799168342_1636032565184/D2B5CA33BD970F64A6301FA75AE2EB22" alt=" "><br>这个解法就是克莱姆法则</li>
 </ul>
-</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2020-08-30T06:43:54.000Z" title="2020/8/30 下午2:43:54">2020-08-30</time>发表</span><span class="level-item"><time dateTime="2022-03-16T08:23:54.635Z" title="2022/3/16 下午4:23:54">2022-03-16</time>更新</span><span class="level-item"><a class="link-muted" href="/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/">机器学习</a></span><span class="level-item">3 分钟读完 (大约500个字)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2020/08/30/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%20-%2001%E6%A6%82%E8%BF%B0/">机器学习 - 01概述</a></h1><div class="content"><h3 id="工作流程"><a href="#工作流程" class="headerlink" title="工作流程"></a>工作流程</h3><p>机器学习是从数据中自动分析获得模型，并利用模型对未知数据进行预测。</p>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2020-08-30T06:43:54.000Z" title="2020/8/30 下午2:43:54">2020-08-30</time>发表</span><span class="level-item"><time dateTime="2022-03-23T03:06:33.628Z" title="2022/3/23 上午11:06:33">2022-03-23</time>更新</span><span class="level-item"><a class="link-muted" href="/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/">机器学习</a></span><span class="level-item">3 分钟读完 (大约482个字)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2020/08/30/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%20-%2001%E6%A6%82%E8%BF%B0/">机器学习 - 01概述</a></h1><div class="content"><h2 id="工作流程"><a href="#工作流程" class="headerlink" title="工作流程"></a>工作流程</h2><p>机器学习是从数据中自动分析获得模型，并利用模型对未知数据进行预测。</p>
 <ul>
 <li>获取数据</li>
 <li>数据基本处理</li>
@@ -53,17 +53,15 @@
 <li>机器学习（模型训练）</li>
 <li>模型评估</li>
 <li>结果达到要求，上线服务</li>
-<li>没有达到要求，重新上面步骤<h3 id="算法分类"><a href="#算法分类" class="headerlink" title="算法分类"></a>算法分类</h3></li>
-<li>监督学习</li>
-<li>无监督学习</li>
-<li>半监督学习</li>
-<li>强化学习</li>
+<li>没有达到要求，重新上面步骤</li>
 </ul>
-<ol>
+<h2 id="算法分类"><a href="#算法分类" class="headerlink" title="算法分类"></a>算法分类</h2><ol>
 <li>监督学习：输入数据由特征值和目标值组成，输出可以是连续的值（回归），或者是有限个离散值（分类）。</li>
 <li>无监督学习：输入数据由特征值组成，没有目标值。输入数据没有被标记，也没有确定的结果。样本数据类别未知； 需要根据样本间的相似性对样本集进行类别划分。</li>
 <li>半监督学习：训练集同时包含标记样本数据和未标记样本数据</li>
-<li>强化学习：实质是make decisions 问题，即自动进行决策，并且可以做连续决策。主要包含五个元素：agent, action, reward, environment, observation；强化学习的目标就是获得最多的累计奖励。<h3 id="模型评估"><a href="#模型评估" class="headerlink" title="模型评估"></a>模型评估</h3></li>
+<li>强化学习：实质是make decisions 问题，即自动进行决策，并且可以做连续决策。主要包含五个元素：agent, action, reward, environment, observation；强化学习的目标就是获得最多的累计奖励。</li>
+</ol>
+<h2 id="模型评估"><a href="#模型评估" class="headerlink" title="模型评估"></a>模型评估</h2><ol>
 <li>分类模型评估<ul>
 <li>准确率</li>
 <li>精确率</li>

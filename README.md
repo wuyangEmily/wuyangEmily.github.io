@@ -1,1 +1,1 @@
-my personal blog: wuyang.run
+my personal blog: [wuyang.run](https://wuyang.run/)
